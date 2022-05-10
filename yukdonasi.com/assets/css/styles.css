@@ -1,0 +1,67 @@
+body, html{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+ul, li, p, a, label, input, div {
+    font-family: 'Roboto', sans-serif;
+}
+.h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+}
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px !important;
+    font-weight: 300;
+}
+.h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px !important;
+}
+section{
+    float: left;
+    width: 100%;
+  }
+
+
+.left{
+    position: relative;
+    left: 80%;
+}
+.bg{
+    padding: 0;
+    height: 100%;
+    background: url("../img/background.jpg") fixed center center; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+
+/*border*/
+.border{
+    border-radius: 15px;
+}
+.border-img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.border-line{
+    border: 2px solid darkblue;
+}
+
+/*text*/
+.text-white { 
+    color: #ffffff !important;
+}
+.text-default { 
+    color: #ca9e0d !important;
+}
+.center-text{
+    position: relative;
+    text-align: center;
+}
+
